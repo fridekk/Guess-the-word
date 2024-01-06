@@ -35,7 +35,6 @@ elif level == '3':
 print('Генерирую слово...')
 time.sleep(2)
 
-
 guessed_word = ['*' for _ in secret_word]
 
 tries = 0
@@ -54,3 +53,4 @@ while tries <= 7:
         tries += 1
 else:
     print('Ты проиграл')
+    print(secret_word)
